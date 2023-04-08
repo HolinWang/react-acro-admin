@@ -2,7 +2,7 @@ const i18n = {
   'en-US': {
     'menu.dashboard': 'Dashboard',
     'menu.dashboard.workplace': 'Workplace',
-    'menu.user.info': 'User Info',
+    'menu.user': 'User Info',
     'menu.user.setting': 'User Setting',
     'menu.user.switchRoles': 'Switch Roles',
     'menu.user.role.admin': 'Admin',
@@ -40,7 +40,7 @@ const i18n = {
   'zh-CN': {
     'menu.dashboard': '仪表盘',
     'menu.dashboard.workplace': '工作台',
-    'menu.user.info': '用户信息',
+    'menu.user': '用户信息',
     'menu.user.setting': '用户设置',
     'menu.user.switchRoles': '切换角色',
     'menu.user.role.admin': '管理员',

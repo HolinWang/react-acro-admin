@@ -7,6 +7,7 @@ import {
   IconTag,
   IconMenuFold,
   IconMenuUnfold,
+  IconUser
 } from '@arco-design/web-react/icon';
 import { useSelector } from 'react-redux';
 import qs from 'query-string';
@@ -31,6 +32,8 @@ function getIconFromKey(key) {
   switch (key) {
     case 'dashboard':
       return <IconDashboard className={styles.icon} />;
+    case 'user':
+      return <IconUser className={styles.icon} />;
     case 'example':
       return <IconTag className={styles.icon} />;
     default:

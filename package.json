@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@arco-plugins/vite-plugin-svgr": "^0.7.2",
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "nprogress": "^0.2.0"
+  }
 }
