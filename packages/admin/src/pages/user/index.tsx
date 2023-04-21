@@ -1,15 +1,21 @@
 import React from 'react';
-import { Typography, Card } from '@arco-design/web-react';
+import { Typography, Card, Button, Space } from '@arco-design/web-react';
+const {Title,Text} = Typography;
 
-function Example() {
+function User() {
   return (
     <Card style={{ height: '80vh' }}>
-      <Typography.Title heading={6}>
-        用户设置
-      </Typography.Title>
-      <Typography.Text>用户信息设置</Typography.Text>
+      <Title heading={6}>  用户管理 </Title>
+
+      <Space direction='vertical'>
+        <Button>
+          新增
+        </Button>
+
+        <Text>用户数据</Text> 
+      </Space>
     </Card>
   );
 }
 
-export default Example;
+export default User;
