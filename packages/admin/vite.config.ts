@@ -14,13 +14,13 @@ export default defineConfig({
     proxy:{
       // 接口代理
       '/api': {
-        target: 'http://localhost:3000/',
+        target: 'http://localhost:3001/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       },
       // 静态文件代理
       '/static': {
-        target: 'http://localhost:3000/',
+        target: 'http://localhost:3001/',
         changeOrigin: true
       },
     }
